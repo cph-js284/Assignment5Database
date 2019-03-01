@@ -7,3 +7,14 @@ This is a series of sql-scripts meant to be executed by either sourcing from the
 
 ------------------------------------------------------------------------------------------------------------------------
 # The how to
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+# Clean-up
+You can delete the container with the follow command
+```
+sudo docker rm -f mysql01
+```
