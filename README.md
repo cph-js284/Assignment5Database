@@ -88,6 +88,19 @@ The stored procedure *CreateMatView*, creates the table the data is kept in; the
 source ./Assignment5scripts/4sp_CreateMatView.sql;
 source ./Assignment5scripts/4tg_maintenance_matView.sql;
 ```
+To create the materialized view
+```
+call CreateMatView();
+```
+To verify, you can use
+```
+describe matView;
+```
+and / or
+```
+select * from matView;
+```
+
 # Excercise 5
 The script for this excercise is in the file *5sp_MySearch.sql*<br>
 This stored procedure returns the postid from the post inwhich the keyword was found, and the number of times the keyword was found in comments tied to the specific post.<br>
