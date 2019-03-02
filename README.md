@@ -98,7 +98,7 @@ describe matView;
 ```
 and / or
 ```
-select * from matView;
+select * from matView limit 3;
 ```
 
 # Excercise 5
