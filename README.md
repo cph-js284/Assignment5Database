@@ -1,5 +1,6 @@
 # Assignment5Database
 This is the 5th. assignment for PB. database soft2019spring
+The dataset choosen for this assingment is the "askubuntu"-set.
 
 -----------------------------------------------------------------------------------------------------------------
 # What is it.
