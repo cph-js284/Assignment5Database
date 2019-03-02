@@ -1,6 +1,6 @@
 # Assignment5Database
 This is the 5th. assignment for PB. database soft2019spring<br>
-The dataset choosen for this assingment is the "askubuntu"-set.
+I have opted to stick with the "coffee"-dataset in the following hand-in. These scripts can be used on any of the stackexchange-datasets though.
 
 -----------------------------------------------------------------------------------------------------------------
 # What is it.
