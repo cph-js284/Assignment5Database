@@ -32,11 +32,11 @@ apt-get install wget p7zip-full -y
 ```
 7) Download the dataset
 ```
-wget https://archive.org/download/stackexchange/askubuntu.com.7z
+wget https://archive.org/download/stackexchange/coffee.stackexchange.com.7z
 ```
 8) Decompress the dataset
 ```
-7z e askubuntu.com.7z
+7z e coffee.stackexchange.com.7z 
 ```
 
 *This takes care of the setup now for the actual data*
