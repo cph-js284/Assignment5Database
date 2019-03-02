@@ -103,8 +103,7 @@ select * from matView limit 3;
 
 # Excercise 5
 The script for this excercise is in the file *5sp_MySearch.sql*<br>
-This stored procedure returns the postid from the post inwhich the keyword was found, and the number of times the keyword was found in comments tied to the specific post.<br>
-*I have opted not to show the actual body of the post in the result, this could easily be changed with a select '*' *
+This stored procedure returns the entire body of the post that matches the contraints.
 ```
 source ./Assignment5scripts/5sp_MySearch.sql;
 ```
