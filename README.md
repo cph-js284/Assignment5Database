@@ -13,7 +13,6 @@ This is a series of sql-scripts meant to be executed by either sourcing from the
 2) Start a docker container running Mysql
 ````
 sudo docker run --name mysql01 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=test1234 -d mysql
-
 ````
 3) Copy the folder containing the scripts into the container
 ````
