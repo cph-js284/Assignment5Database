@@ -51,8 +51,9 @@ mysql -u root -ptest1234  --local-infile
 source ./Assignment5scripts/CreateTables.sql;
 ````
 
+
 # Excercise 1
-The script for this excercise is in the file *1sp_DenormalizeComments.sql*
+The script for this excercise is in the file [1sp_DenormalizeComments.sql](Assignment5Scripts/1sp_DenormalizeComments.sql)
 ```
 source ./Assignment5scripts/1sp_DenormalizeComments.sql;
 ```
