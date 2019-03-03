@@ -46,7 +46,7 @@ wget https://archive.org/download/stackexchange/coffee.stackexchange.com.7z
 mysql -u root -ptest1234  --local-infile
 ```
 2) Setup and populate the tables - using the setup-script from the assignment <br>
-*(the only tweak I've made to this script is added a 'Comments' column to the posts table, this column is used in excercise 1, and changed the path to the XML-files)*
+*(the only tweak I've made to this script is added a 'Comments' column to the posts table, this column is used in excercise 1, and changed the path to the XML-files, also I've turn the Id in the comments table to auto_increment)*
 ````
 source ./Assignment5scripts/CreateTables.sql;
 ````
