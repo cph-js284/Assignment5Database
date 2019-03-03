@@ -103,7 +103,7 @@ select * from matView limit 3;
 
 # Excercise 5
 The script for this excercise is in the file *5sp_MySearch.sql*<br>
-This stored procedure returns the entire body of the post that matches the contraints.
+*This stored procedure returns only the postId that contains the keyword and the number of times the keyword appears in the comments tied to that specific post.*<br>
 ```
 source ./Assignment5scripts/5sp_MySearch.sql;
 ```
