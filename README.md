@@ -62,13 +62,13 @@ To use it
 call denormalizeComments(<valid PostId>)
 ```
 # Excercise 2
-The script for this excercise is in the file *2tg_comments_after_insert.sql*<br>
+The script for this excercise is in the file [2tg_comments_after_insert.sql](Assignment5scripts/2tg_comments_after_insert.sql)<br>
 *this trigger basicly just calls the stored procedure from excercise 1, with the id of whatever post got the added comment*
 ```
 source ./Assignment5scripts/2tg_comments_after_insert.sql;
 ```
 # Excercise 3
-The script for this excercise is in the files *3asp_TransferCommentsToPost.sql and 3bsp_CreateNewCommetsAndPost.sql*
+The script for this excercise is in the files [3asp_TransferCommentsToPost.sql](Assignment5scripts/3asp_TransferCommentsToPost.sql) and [3bsp_CreateNewCommetsAndPost.sql](Assignment5scripts/3bsp_CreateNewCommetsAndPost.sql)
 first disable the trigger from excercise 2
 ```
 DROP TRIGGER IF EXISTS comments_AFTER_INSERT;
@@ -83,7 +83,7 @@ To use it
 call CreateNewCommentAndPost(<valid postid>, <comment you want to add>, <valid userid>)
 ```
 # Excercise 4
-The script for this excercise is in the files *4sp_CreateMatView.sql and 4tg_maintenance_matView.sql*
+The script for this excercise is in the files [4sp_CreateMatView.sql](Assignment5scripts/4sp_CreateMatView.sql) and [4tg_maintenance_matView.sql](Assignment5scripts/4tg_maintenance_matView.sql)
 The stored procedure *CreateMatView*, creates the table the data is kept in; the file *4tg_maintenance_matView.sql* contains triggers that maintains the matView-table after *insert, update, delete*, these are used to secure data consistancy.
 ```
 source ./Assignment5scripts/4sp_CreateMatView.sql;
@@ -103,7 +103,7 @@ select * from matView limit 3;
 ```
 
 # Excercise 5
-The script for this excercise is in the file *5sp_MySearch.sql*<br>
+The script for this excercise is in the file [5sp_MySearch.sql](Assignment5scripts/5sp_MySearch.sql)<br>
 *This stored procedure returns only the postId that contains the keyword and the number of times the keyword appears in the comments tied to that specific post.*<br>
 ```
 source ./Assignment5scripts/5sp_MySearch.sql;
